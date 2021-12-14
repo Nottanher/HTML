@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Formulario</title>
+	</head>
+	<body>
+		<h3>FORMULARIO</h3>
+		<form>
+			<br>
+			<label for="Nombre">Ingrese su Nombre:</label>
+			<input type="text" placeholder="Escribe tu Nombre" 
+maxlength="15"  id="Nombre" required>
+
+			<br></br>
+		    <label for="Nacimiento"> Fecha de Nacimiento </label>
+		    <input type="date" placeholder="Escribe tu fecha de 
+Nacimiento" id="Nacimiento" required >
+
+		    <br></br>
+			<label for="Telefono">Número de Telefono </label>
+			<input type="number" placeholder="Ingrese su Numero 
+Telefonico" id="Telefono" required >
+
+		    <br></br>
+			<label for="Correo">Correo Electronico</label>
+			<input type="email" placeholder="Ingrese su Correo 
+Electronico" id="Correo" >
+		    
+		    
+           <br></br>
+		   Genero:
+		    <input type="radio" name="Genero" value="Mujer" required> 
+Mujer
+		    <input type="radio" name="Genero" value="Hombre" required> 
+Hombre
+
+           <br></br>Materias<br>
+		      <label ><input type="checkbox" name="materias[]" 
+value="matematicas">Matematicas</label><br>
+		      <label><input type="checkbox" name="materias[]" 
+value="filosofia" >Filosofia</label><br>
+		      <label><input type="checkbox" name="materias[]" 
+value="computacion" >Computacion</label><br>
+		      <label><input type="checkbox" name="materias[]" 
+value="relaciones">Relaciones Humanas</label><br>
+
+		  <p><input type="submit" value="Enviar datos"></p>
+		</form>
+		</body>
+</html>	
