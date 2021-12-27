@@ -1,0 +1,29 @@
+a{
+	font-size: 20px;
+	text-decoration: none;
+	margin: 10px 20px;
+	display: inline-block;
+	background: #FCF3CF;
+	color: #000;
+	padding: 10px 20px;
+	box-shadow:0px 5px 0px #F6DDCC;
+
+}
+
+
+a: link {
+	color: #F6DDCC;
+}
+
+a:hover{
+	text-decoration: underline;
+	background:#FAE5D3 ;
+	color: #000;
+	box-shadow: 0px 2px 0px #F6DDCC;
+}
+
+a:active{
+	background:#EBDEF0;
+	box-shadow: none;
+
+}
