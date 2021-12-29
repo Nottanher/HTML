@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding:0;
+}
+
+
+*:visited{
+	color: #212F3C;
+}
+
+body {
+	background:#FFFFFF;
+}
+
+header, main, footer {
+	width: 90%;
+	max-width:2000px;
+	margin: 20px auto;
+}
+
+.logotipo {
+	background: #000;
+}
+
+header nav {
+	background: #ECF0F1;
+	overflow: hidden;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+	padding: 10px 20px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	background:#ffff ;
+	color: #000;
+	box-shadow: 0px 2px 0px #99A3A4;
+}
+
+.titulo {
+	color: #444;
+	font-family: "Stag Web",Georgia,Times,sans-serif;
+	font-size: 25px;
+}
+
+.autor {
+	list-style: unset;
+	font-family: Verdana,Arial,san-serif;
+	font-size: .9rem;
+	color: #777;
+	list-style: none;
+	line-height: 1.6em;
+}
+
+.img {
+	width: 100%;
+	height: 500px;
+	display: block;
+	margin: auto;
+}
+
+.imagen1 {
+	background: rgba(0, 0, 0, 1.1);
+	color: #fff;
+	width: 100%;
+}
+
+main .articles {
+	color: #525252;
+	font-size: 15px;
+	font-family: Verdana,Tahoma,"DejaVu Sans",sans-serif;
+}
+
+main .articles .subtitulo {
+	color: #000;
+}
+
+main .articles {
+	width: 58.5%;
+	margin-right:1.5% ;
+	float: left;
+}
+
+main .articles article {
+	padding: 30px;
+	background: #fff ;
+	margin-bottom: 30px;
+
+}
+
+aside {
+	width: 40%;
+	background: #F2F3F4 ;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+	font-family: Verdana,Arial,san-serif;;
+}
+aside nav li{
+	list-style: none;
+}
+
+
+footer {
+	background: #ECF0F1 ;
+	color: #000;
+	clear: both;
+	padding: 10px 0px;
+	text-align: center;
+}
